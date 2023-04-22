@@ -6,7 +6,7 @@ from ClaseEstudiante import Estudiante
 class FactoryMatricula:
 
     # se crea metodo factory para retornar un objeto de la clase
-    # Instancia de la clase que va a retornar sea de tipo profesor o estudiante
+    # Instancia de la clase que va a retornar sea de tipo profesor o estudiante de las clase creadas
     def CrearProEst(self, tipo):
         if tipo == 'profesor':
             return Profesor()
