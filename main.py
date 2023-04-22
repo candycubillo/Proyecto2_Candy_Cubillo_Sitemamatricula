@@ -1296,4 +1296,4 @@ opcion.config(bg="blue", foreground="white",
               font=('Arial', 12))  # configuración que se visualizara en la ventana, con color, letra
 opcion.pack(pady=50)  # especifica las posiciones de los elementos
 
-app.mainloop()
+app.mainloop()#Se inicia el programa en la ventana principal
