@@ -4,19 +4,19 @@ from abc import ABC, abstractmethod #SE IMPORTA la biblioteca "abc" para definir
 #SE CREA LA CLASE ProfeEstudiante con los métodos esta sera la clase padre
 class ProfeEstudiante(ABC):
     @abstractmethod
-    def Cedula(self, cedula):
+    def Cedula(self, cedula):# cedula sera su atributo
         pass
 
     @abstractmethod
-    def Nombre(self, nombre):
+    def Nombre(self, nombre):# nombre sera su atributo
         pass
 
     @abstractmethod
-    def fechaNacimiento(self, fechaNacimiento):
+    def fechaNacimiento(self, fechaNacimiento): # fecha nacimiento sera su atributo
         pass
 
     @abstractmethod
-    def nCelular(self, nCelular):
+    def nCelular(self, nCelular):# celular sera su atributo
          pass
 #SE CREA CLASE PROFESOR que es una clase hija que hereda los metodos de la clase Profestudiante
 class Profesor(ProfeEstudiante):
